@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "908617410456",
+    "firebase_url": "https://colorwheel5-639d4.firebaseio.com",
+    "project_id": "colorwheel5-639d4",
+    "storage_bucket": "colorwheel5-639d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908617410456:android:2e34b51b62ccafd4",
+        "android_client_info": {
+          "package_name": "com.colorwheel5.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908617410456-6f3jvan11dfs0ptc4bfdq2sebt3guipo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.colorwheel5.game",
+            "certificate_hash": "a0b0bbd607803ddbc455d06641c655aedc5690d7"
+          }
+        },
+        {
+          "client_id": "908617410456-5bob2bc0185ngsrm2tm3s8tvr1v197ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN8oXe-d6gFS9hLYtNdXx7qWo-8YBUoSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908617410456-5bob2bc0185ngsrm2tm3s8tvr1v197ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

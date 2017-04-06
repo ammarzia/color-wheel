@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.colorwheel5.game"
+    android:versionCode="6"
+    android:versionName="1.6">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="25" />
+
+    <compatible-screens>
+        <!-- all phones -->
+        <screen android:screenDensity="xxhdpi"  android:screenSize="large" />
+        <screen android:screenDensity="xxxhdpi" android:screenSize="large" />
+        <screen android:screenDensity="560"     android:screenSize="large" />
+        <screen android:screenDensity="560"     android:screenSize="normal" />
+        <screen android:screenDensity="xxhdpi"  android:screenSize="normal" />
+        <screen android:screenDensity="xxxhdpi" android:screenSize="normal" />
+        <!-- all tablets -->
+        <screen android:screenDensity="xhdpi"   android:screenSize="xlarge" />
+        <screen android:screenDensity="xxhdpi"  android:screenSize="xlarge" />
+        <screen android:screenDensity="xxxhdpi" android:screenSize="xlarge" />
+        <screen android:screenDensity="xhdpi"   android:screenSize="large" />
+        <screen android:screenDensity="xxhdpi"  android:screenSize="large" />
+        <screen android:screenDensity="xxxhdpi" android:screenSize="large" />
+    </compatible-screens>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/GdxTheme">
+        <activity
+            android:name="com.colorwheel5.game.AndroidLauncher"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
