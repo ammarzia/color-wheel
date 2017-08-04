@@ -16,6 +16,7 @@
         <screen android:screenDensity="560"     android:screenSize="normal" />
         <screen android:screenDensity="xxhdpi"  android:screenSize="normal" />
         <screen android:screenDensity="xxxhdpi" android:screenSize="normal" />
+        <screen android:screenDensity="420"     android:screenSize="normal" />
         <!-- all tablets -->
         <screen android:screenDensity="xhdpi"   android:screenSize="xlarge" />
         <screen android:screenDensity="xxhdpi"  android:screenSize="xlarge" />
