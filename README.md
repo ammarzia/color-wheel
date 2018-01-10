@@ -12,7 +12,7 @@ Designed for tablets and phones in portrait.
 
 ### Quickstart
 
-1. Clone repository to your local drive: `git clone https://github.com/ammarzia/ColorWheel.git`
+1. Clone repository to your local drive: `git clone https://github.com/ammarzia/color-wheel.git`
 
 2. Open synced repo in Android Studio.
 
