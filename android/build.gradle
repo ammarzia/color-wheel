@@ -1,5 +1,4 @@
 android {
-    buildToolsVersion '27.0.3'
     compileSdkVersion 26
     sourceSets {
         main {
@@ -128,6 +127,6 @@ idea {
 }
 
 dependencies {
-    compile 'com.google.firebase:firebase-ads:15.0.0'
+    implementation 'com.google.firebase:firebase-ads:15.0.0'
 }
 apply plugin: 'com.google.gms.google-services'

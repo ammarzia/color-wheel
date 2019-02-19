@@ -4,10 +4,6 @@
     android:versionCode="6"
     android:versionName="1.6">
 
-    <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="25" />
-
     <compatible-screens>
         <!-- all phones -->
         <screen android:screenDensity="xxhdpi"  android:screenSize="large" />

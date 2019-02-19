@@ -7,11 +7,10 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.1'
+        classpath 'com.android.tools.build:gradle:3.3.1'
         classpath 'com.google.gms:google-services:3.2.1'
     }
 }
-
 allprojects {
     apply plugin: "eclipse"
     apply plugin: "idea"
@@ -28,14 +27,13 @@ allprojects {
     }
 
     repositories {
-        maven { url "https://maven.google.com/"}
+        maven { url "https://maven.google.com/" }
         mavenLocal()
         mavenCentral()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven { url "https://oss.sonatype.org/content/repositories/releases/" }
     }
 }
-
 project(":android") {
     apply plugin: "android"
 
@@ -64,7 +62,6 @@ project(":android") {
         compile "com.google.android.gms:play-services-ads:$admobVersion"
     }
 }
-
 project(":core") {
     apply plugin: "java"
 
@@ -74,7 +71,8 @@ project(":core") {
         compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
     }
 }
-
 tasks.eclipse.doLast {
     delete ".project"
+}
+dependencies {
 }
